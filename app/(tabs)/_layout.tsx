@@ -6,10 +6,10 @@ export default function TabLayout() {
     <Tabs
       screenOptions={{
         headerShown: false,
+        tabBarShowLabel: false,
         tabBarStyle: {
-          position: 'absolute',
           bottom: 0,
-          backgroundColor: 'rgba(0, 0, 0, 0.8)',
+          backgroundColor: 'rgba(0, 0, 0, 1)',
           borderTopWidth: 0,
           height: 50,
           paddingBottom: 6,
